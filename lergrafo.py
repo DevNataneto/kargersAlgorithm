@@ -27,18 +27,7 @@ def processar_grafo(arquivo):
     
 
 
-def main():
-    matriz_adj, lista_adj, num_vertices = processar_grafo("grafo.txt")
 
-    print("Matriz de adjacência:")
-    for i in range(num_vertices):
-        print(matriz_adj[i])
 
-    print("\nLista de adjacência:")
-    for i in range(num_vertices):
-        print(f"{i}: {lista_adj[i]}")
-    
     
 
-if __name__ == "__main__":
-    main()
